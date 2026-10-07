@@ -1,0 +1,46 @@
+# Text and log artifacts
+*.txt
+*.log
+logs/
+
+# Python caches and local tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+braintumor-env/
+
+# Medical imaging datasets and archives
+dataset/
+*.nii
+*.nii.gz
+*.tar
+*.tar.gz
+
+# Model checkpoints and generated model files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.ts
+*.engine
+weights/
+exported_models/
+
+# Generated predictions and visualizations
+outputs/
+results/
+figures/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
